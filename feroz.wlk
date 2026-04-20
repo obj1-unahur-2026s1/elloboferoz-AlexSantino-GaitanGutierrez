@@ -22,4 +22,7 @@ method correr (){
     pesoActual = pesoActual - 1
 }
 }
+method estaVivo() {
+  return pesoActual > 0
+}
 }
